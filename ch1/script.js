@@ -1,5 +1,4 @@
 
-let productName = "Hammer",
-    productId = "H123";
-    
-console.log(productName, productId);
+let productName = "Hammer";
+
+console.log(productName);
