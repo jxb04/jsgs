@@ -1,6 +1,6 @@
-function showMessage() {
-    console.log('in a function');
+function showMessage(message, anotherMessage) {
+    console.log(message, anotherMessage);
 }
 
-showMessage();
-showMessage();
+showMessage('First message', 'Another message');
+showMessage('Second message', 'Another message');
