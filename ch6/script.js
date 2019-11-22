@@ -1,6 +1,8 @@
-function showMessage(message, anotherMessage) {
-    console.log(message, anotherMessage);
+function myFunction(favoriteNumber) {
+    let newNumber = favoriteNumber + 100;
+    return newNumber;
 }
 
-showMessage('First message', 'Another message');
-showMessage('Second message', 'Another message');
+result = myFunction(42);
+
+console.log(result);
