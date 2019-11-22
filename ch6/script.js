@@ -1,8 +1,10 @@
-function myFunction(favoriteNumber) {
-    let newNumber = favoriteNumber + 100;
-    return newNumber;
+let message = "First message";
+
+function myFunction() {
+    let message = "Hello World!";
+    return message;
 }
 
-result = myFunction(42);
+myFunction();
 
-console.log(result);
+console.log(message);
