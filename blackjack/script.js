@@ -136,7 +136,7 @@ function checkForEndOfGame() {
 
     if (gameOver) {
         // let dealer take cards
-        while (dealerScore < playerScore && playerScore <= 21 && dealerScore <= 21) {
+        while (dealerScore < 17 && playerScore <= 21 && dealerScore <= 21) {
             dealerCards.push(getNextCard());
             updateScores();
         }
@@ -208,10 +208,3 @@ function showStatus() {
 //    }
 }
 
-//let playerCards = [getNextCard(), getNextCard()];
-
-console.log("Welcome to Blackjack");
-
-console.log("Your are dealt: ");
-console.log(" " + getCardString(playerCards[0]));
-console.log(" " + getCardString(playerCards[1]));
